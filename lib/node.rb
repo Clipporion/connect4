@@ -9,7 +9,7 @@ class Node
 
   def initialize(value)
     @value = value
-    @symbol = nil
+    @symbol = ' '
     @leftup = add_neighbor(value, [-1, 1])
     @up = add_neighbor(value, [0, 1])
     @rightup = add_neighbor(value, [1, 1])

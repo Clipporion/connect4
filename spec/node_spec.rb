@@ -12,10 +12,10 @@ describe Node do
       expect(value).to eq([2, 2])
     end
 
-    it 'creates a node with a symbol add to nil' do
+    it 'creates a node with a symbol add to a whitespace' do
       symbol = node.symbol
 
-      expect(symbol).to be nil
+      expect(symbol).to eq(' ')
     end
 
     it 'creates 8 correct neighbors' do
