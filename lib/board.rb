@@ -43,5 +43,6 @@ class Board
     rows.each do |num|
       print "  #{num} "
     end
+    puts
   end
 end
